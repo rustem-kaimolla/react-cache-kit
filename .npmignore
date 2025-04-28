@@ -1,0 +1,6 @@
+src/
+tests/
+.github/
+vite.config.ts
+tsconfig.json
+.gitignore
