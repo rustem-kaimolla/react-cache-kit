@@ -1,5 +1,11 @@
 # react-cache-kit
 
+[![npm version](https://img.shields.io/npm/v/react-cache-kit.svg?style=flat)](https://www.npmjs.com/package/react-cache-kit)
+[![npm downloads](https://img.shields.io/npm/dw/react-cache-kit.svg?style=flat)](https://www.npmjs.com/package/react-cache-kit)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Coverage Status](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)]()
+
+
 > Lightweight and flexible caching utility for React apps.  
 > Supports memory, localStorage, sessionStorage drivers, TTL expiration, and `remember` callbacks out of the box.
 
