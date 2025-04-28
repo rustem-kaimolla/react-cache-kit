@@ -6,11 +6,11 @@ describe('LocalStorageDriver', () => {
 
     beforeEach(() => {
         driver = new LocalStorageDriver();
-        localStorage.clear(); // чистим перед каждым тестом
+        localStorage.clear();
     });
 
     afterEach(() => {
-        localStorage.clear(); // и после
+        localStorage.clear();
     });
 
     it('should set and get a value', async () => {

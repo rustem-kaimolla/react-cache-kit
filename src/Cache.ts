@@ -1,7 +1,7 @@
 import { MemoryDriver } from './drivers/MemoryDriver';
 
 interface CacheOptions {
-    ttl?: number; // Время жизни в секундах
+    ttl?: number;
 }
 
 interface CacheItem<T = any> {
