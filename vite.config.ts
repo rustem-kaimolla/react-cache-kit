@@ -1,7 +1,18 @@
 import { defineConfig } from 'vite';
 import * as path from 'path';
 
+import { configDefaults } from 'vitest/config';
+
 export default defineConfig({
+    test: {
+        environment: 'jsdom',
+        globals: true,
+    },
+    resolve: {
+        alias: {
+            '@': path.resolve(__dirname, './src'),
+        }
+    },
     build: {
         lib: {
             entry: path.resolve(__dirname, 'src/index.ts'),
