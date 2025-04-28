@@ -1,6 +1,6 @@
 {
   "name": "react-cache-kit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lightweight and flexible caching utility for React apps. Supports memory, localStorage, sessionStorage drivers, TTL expiration, and 'remember' callbacks out of the box.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
