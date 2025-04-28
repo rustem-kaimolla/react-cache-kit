@@ -1,0 +1,40 @@
+{
+  "name": "react-cache-kit",
+  "version": "1.0.0",
+  "description": "Lightweight and flexible caching utility for React apps. Supports memory, localStorage, sessionStorage drivers, TTL expiration, and 'remember' callbacks out of the box.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "vite build",
+    "test": "echo \"No tests yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rustem-kaimolla/react-cache-kit.git"
+  },
+  "keywords": [
+    "react",
+    "cache",
+    "caching",
+    "cache-manager",
+    "storage",
+    "localstorage",
+    "sessionstorage",
+    "memory-cache",
+    "ttl",
+    "remember",
+    "react-cache",
+    "react-library"
+  ],
+  "author": "Rustem K. <rustem@exact.kz> (https://github.com/rustem-kaimolla)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rustem-kaimolla/react-cache-kit/issues"
+  },
+  "homepage": "https://github.com/rustem-kaimolla/react-cache-kit#readme",
+  "devDependencies": {
+    "vite": "^6.3.3",
+    "@types/node": "*"
+  }
+}
